@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #442121 !important;
+  width: 100vw;
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 60px;
+  align-items: center;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.intro a {
+  text-decoration: none;
+  color: white;
+}
+a {
+  margin-right: 10px;
+}
+a:hover {
+  color: #708dee;
+}
+img {
+  margin-left: 20px;
+}
+.btn {
+  margin-right: 20px;
+}
+#dot {
+  font-size: 40px;
+  margin-top: -25px;
+}
+.text {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+.selections {
+  display: flex;
+
+  justify-content: center;
+}
+.selections button {
+  background-color: black;
+  margin-right: 20px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 5px;
+}
+.selections button:hover {
+  background-color: #184be6;
+  opacity: 1;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.item {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  color: white;
+  margin-top: 80px;
+}
+.item .desc {
+  margin-top: 10px;
+}
+.text div button {
+  color: white;
+  border: 2px solid white;
+}
+.text div button:hover {
+  background-color: #354ae9;
+}
+
+.item .image {
+  transition: all 1s;
+}
+
+.item .image:hover {
+  scale: 1.1;
+}
